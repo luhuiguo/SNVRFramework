@@ -22,12 +22,6 @@ Pod::Spec.new do |s|
   
   s.libraries = 'iconv', 'z', 'bz2'
 
-  s.dependency 'CocoaAsyncSocket', '~>7.4.1'
-
-  s.dependency 'CocoaLumberjack', '~>1.9.2'
-
-  s.dependency 'ffmpeg'
-
   s.vendored_frameworks = 'SNVR.framework'
 
   s.preserve_paths = 'SNVR.framework'

@@ -1,0 +1,6 @@
+framework module SNVR {
+  umbrella header "SNVR.h"
+
+  export *
+  module * { export * }
+}

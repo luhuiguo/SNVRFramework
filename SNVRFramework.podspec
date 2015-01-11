@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "SNVR Framework"
+  s.name         = "SNVRFramework"
   s.version      = "1.0.0"
   s.summary      = "SNVR Framework"
   s.license      = {

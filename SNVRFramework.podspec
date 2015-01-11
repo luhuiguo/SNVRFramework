@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.platform = :ios, 7.0
 
-  s.frameworks = 'Foundation', 'UIKit', 'QuartzCore', 'CoreGraphocs'
+  s.frameworks = 'Foundation', 'UIKit', 'QuartzCore', 'CoreGraphics'
   
   s.libraries = 'iconv', 'z', 'bz2'
 

@@ -29,4 +29,6 @@ Pod::Spec.new do |s|
   s.dependency 'ffmpeg'
 
   s.vendored_frameworks = 'SNVR.framework'
+
+  s.preserve_paths = 'SNVR.framework'
 end

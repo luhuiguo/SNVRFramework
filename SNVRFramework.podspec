@@ -16,11 +16,9 @@ Pod::Spec.new do |s|
 
   s.source  = { :git => "https://github.com/luhuiguo/SNVRFramework.git", :tag => s.version.to_s }
 
-  s.preserve_paths = '**/*.framework'
-
   s.platform = :ios, 7.0
 
-  s.frameworks = 'Foundation', 'UIKit', 'QuartzCore', 'CoreGraphics'
+  s.frameworks = 'Foundation', 'UIKit', 'QuartzCore', 'CoreGraphics', 'SNVR'
   
   s.libraries = 'iconv', 'z', 'bz2'
 

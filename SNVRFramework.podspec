@@ -25,4 +25,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'SNVR.framework'
 
   s.preserve_paths = 'SNVR.framework'
+
+  s.public_header_files = 'SNVR.framework/Headers/*.h'
 end

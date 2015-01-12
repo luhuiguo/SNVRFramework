@@ -27,7 +27,7 @@
 @property (copy) void (^extractorBlock)(SNVRChannel *channel);
 
 
-- (void)previewWithContext:(SNVRContext *)context Stream:(NSUInteger)stream success:(void (^)(SNVRChannel *channel))success failure:(void (^)(SNVRChannel *channel, NSError *error)) failure extractor:(void (^)(SNVRChannel *channel))extractor;
+- (void)previewWithContext:(SNVRContext *)context stream:(NSUInteger)stream success:(void (^)(SNVRChannel *channel))success failure:(void (^)(SNVRChannel *channel, NSError *error)) failure extractor:(void (^)(SNVRChannel *channel))extractor;
 
 
 - (void)stopPreview;
